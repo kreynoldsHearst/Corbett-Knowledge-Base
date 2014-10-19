@@ -22,6 +22,8 @@ get_header(); ?>
 			else
 				include (TEMPLATEPATH . '/single-article.php');
 			?>
+        </div>
+        </div>
 
       
 
