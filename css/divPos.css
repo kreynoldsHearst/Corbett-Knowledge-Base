@@ -1,0 +1,408 @@
+@charset "utf-8";
+
+html
+{
+	 overflow: -moz-scrollbars-vertical;
+}
+
+body
+{
+	background: #e9f2f4 url(../images/background.gif) top left repeat-x;
+	margin: 0px;
+}
+
+div
+{
+	position: relative;
+}
+
+img
+{
+	border: 0px;
+}
+
+div.banner
+{
+	position: absolute;
+	right: 64px;
+	width: 385px;
+	height: 497px;
+	background: #70803c;
+}
+
+div.bannerAttr
+{
+	height: 28px;
+	padding: 0px 18px;
+}
+
+div.bannerControls
+{
+	position: absolute;
+	top: 86px;
+	right: 18px;
+	width: 90px;
+	height: 19px;
+	z-index: 10;
+}
+
+div.bannerCount
+{
+	float: left;
+	width: 30px;
+}
+
+div.bannerControls img
+{
+	float: left;
+	vertical-align: middle;
+	margin: 0px 10px;
+	cursor: pointer;
+}
+
+div.bannerImage
+{
+	height: 379px;
+}
+
+div.bannerQuote
+{
+	height: 52px;
+	padding: 38px 18px 0px 18px;
+}
+
+div.bannerItem
+{
+	display: none;
+}
+
+div.body
+{
+	width: 984px;
+	margin: 0px auto;
+	margin-bottom: -16px;
+}
+
+div.content
+{
+	top: -16px;
+	min-height: 459px;
+}
+
+div.copyright
+{
+	padding: 5px 0px 0px 9px;
+}
+
+div.dropDown
+{
+	position: absolute;
+	display: none;
+	top: 28px;
+	left: -15px;
+	width: 222px;
+	padding: 10px 33px 25px 33px;
+	z-index: 5;
+}
+
+div.ddLarge
+{
+	background: url(../images/background-dropdown.png) bottom left no-repeat;
+}
+
+div.ddSmall
+{
+	background: url(../images/background-dropdownSmall.png) bottom left no-repeat;
+}
+
+div.downloadBrochure
+{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+div.footer
+{
+	clear: both;
+	height: 28px;
+	padding: 23px 60px;
+	background: #58595b url(../images/shadow-bottom.png) top center no-repeat;
+}
+
+div.footerLinks
+{
+	width: 856px;
+	height: 44px;
+	margin: 0px auto;
+}
+
+div.footerLinksItem
+{
+	display: inline;
+}
+
+div.gallery
+{
+	float: left;
+	width: 376px;
+	height: 461px;
+	padding-top: 36px;
+	background: #70803c;
+	overflow: hidden;
+}
+
+div.gridContent
+{
+	padding-top: 30px;
+}
+
+div.gridItem
+{
+	float: left;
+	position: relative;
+	width: 61px;
+	height: 61px;
+	cursor: pointer;
+	background: #e7e9e5;
+	border-top: 2px solid #e9f2f4;
+	border-right: 2px solid #e9f2f4;
+}
+
+div.gridItemEmpty
+{
+	float: left;
+	position: relative;
+	width: 61px;
+	height: 61px;
+	background: #e7e9e5;
+	border-top: 2px solid #e9f2f4;
+	border-right: 2px solid #e9f2f4;
+}
+
+div.gridItemName, div.gridItemTitle, div.gridItemText, div.gridItemPhoto, div.gridItemThumbActive, div.gridItemThumb, div.gridItemAttachment
+{
+	display: none;
+}
+
+div.gridItemLabel
+{
+	position: absolute;
+	top: 197px;
+	width: 198px;
+	height: 15px;
+	padding: 5px 7px;
+	background: #d6dd21;
+}
+
+div.header
+{
+	height: 126px;
+	padding-top: 23px;
+	padding: 23px 69px 16px 69px;
+	background: url(../images/shadow-top.png) bottom center no-repeat;
+	z-index: 7;
+}
+
+div.image
+{
+	float: left;
+	width: 385px;
+	height: 497px;
+}
+
+div.intro
+{
+	display: inline;
+	position: absolute;
+	top: 64px;
+	right: 69px;
+}
+
+div.last
+{
+	border-right: 0px;
+}
+
+div.map
+{
+	position: absolute;
+	top: 64px;
+	left: 240px;
+}
+
+div.mapBox
+{
+	left: 70px;
+	top: 5px;
+	width: 267px;
+	height: 488px;
+	z-index: 10;
+	background: url(../images/background-mapBox.png) top left no-repeat;
+}
+
+div.mapBoxHeader
+{
+	margin-bottom: 5px;
+}
+
+div.mapInfo
+{
+	display: none;
+	width: 228px;
+	height: 321px;
+	padding: 22px 20px 0px 15px;
+}
+
+map.maplinks area
+{
+	cursor: pointer;
+}
+
+div.mapText
+{
+	width: 165px;
+	padding: 22px 15px 0px 15px;
+}
+
+div.navi
+{
+	position: absolute;
+	top: 117px;
+	height: 37px;
+	margin: 0px -18px 0px -17px;
+	z-index: 15;
+}
+
+div.naviItem
+{
+	display: inline;
+	z-index: 6;
+}
+
+div.rightButton
+{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+div.text
+{
+	float: left;
+	width: 430px;
+	margin: 38px 39px 0px 69px;
+	padding-bottom: 100px;
+}
+
+div.viewer
+{
+	clear: both;
+	width: 376px;
+	height: 333px;
+	border-top: 2px solid #e9f2f4;
+	overflow: hidden;
+}
+
+
+
+
+<!-- Map Styles ------------------------------------------------------------------->
+
+div.map
+{
+	width: 738px;
+	height: 364px;
+}
+
+img.continent
+{
+	position: absolute;
+	cursor: pointer;
+	z-index: 1;
+}
+
+img#africa			{ top: 154px; left: 311px; }
+img#asia			{ top: 11px; left: 399px; }
+img#australasia		{ top: 234px; left: 575px; }
+img#europe			{ top: 15px; left: 296px; }
+img#northamerica	{ top: 0px; left: 0px; }
+img#southamerica	{ top: 209px; left: 157px; }
+
+img.overlay
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 2;
+}
+
+
+
+
+div.box
+{
+	padding: 25px 20px;
+	background: #fff;
+	margin-bottom: 6px;
+	font-size: 16px;
+}
+div.box.boxGreen
+{
+	background: #70803c;
+}
+
+div.boxGreen h2, div.boxGreen
+{
+	color: #fff;
+}
+
+div.box ul
+{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+div.box ul h2
+{
+	display: block;
+	border-bottom: 1px solid #d4d8d2;
+	padding-bottom: 20px;
+	margin-bottom: 5px;
+}
+
+div.box ul a:link, div.box ul a:visited, div.box ul a:active
+{
+	display: block;
+	border-bottom: 1px solid #d4d8d2;
+	padding-bottom: 5px;
+	text-decoration: none;
+}
+
+div.box ul a:hover
+{
+	text-decoration: underline;
+}
+
+div.knowledgePost
+{
+	padding-top: 20px;
+	border-top: 1px solid #999999;
+	margin-top: 20px;
+}
+
+a.button:link, a.button:visited, a.button:active
+{
+	width: 90px;
+	display: block;
+	padding: 5px 7px;
+	background: #70803c;
+	color: #fff;
+	text-decoration: none;
+}
+
+p.attr
+{
+	font-size: 16px;
+}
